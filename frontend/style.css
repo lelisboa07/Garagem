@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(./assets/fundo1.png);
+    background-size: 100%;
+  }
+  
+  .cabecalho {
+    background-color: #A82810;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .logo {
+    width: 25vw;
+  }
+
+  .main-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+
+  .main-index .form{
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1.5px solid black;
+    border-radius: 8px;
+    width: 25vw;
+    height: auto;
+}
+
+.form a{
+    margin-top: 15px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input input{
+    width: 15vw;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 0.5px solid black;
+}
+
+.form-input select{
+    width: 15vw;
+    border: 0.5px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.formLogin {
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1.5px solid black;
+    border-radius: 8px;
+    width: 25vw;
+    height: auto;
+}
+
+.formLogin a{
+    margin-top: 15px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.button-form{
+    width: 15vw;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #A82810;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.main-index button:hover{
+    background-color: #c53c24;
+}
+
+.formCar{
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1.5px solid black;
+    border-radius: 8px;
+    width: 25vw;
+    height: auto;
+}
+
+
+
+.main-listagem{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: auto;
+}
+
+table{
+    margin: 20px;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #fff;
+}
+
+.link-car-register{
+    background-color: #A82810;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+.btn-delete-car{
+    padding: 10px;
+    margin: 10px;
+    width: 10vw;
+    background-color: #A82810;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-edit-car{
+    padding: 10px;
+    margin: 10px;
+    width: 10vw;
+    background-color: #5dc459;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
